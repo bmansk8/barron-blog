@@ -1,0 +1,19 @@
+@import "../utilities/varibles";
+
+header{
+text-align: center;
+  P{
+    margin-left:15%;
+    margin-right:15%;
+  }
+}
+
+footer{
+text-align: center;
+}
+
+
+.special{
+  color: $accent1;
+  text-decoration: underline $accent2;
+}

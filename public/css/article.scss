@@ -1,0 +1,23 @@
+@import "../utilities/varibles";
+
+.article{
+  background-color: $primary;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 25px;
+  border-radius: 1.5%;
+  margin-bottom: 50px;
+
+  img{
+    padding: 5px;
+    background-color: $secondary;
+    border-radius: 5%;
+  }
+}
+  
+@media(max-width:768px){
+  .article{
+    margin: 50px;
+    border-radius: 0;
+  }
+}
