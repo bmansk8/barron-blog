@@ -6,7 +6,7 @@ export default function Article_suffering() {
         rel="stylesheet"
       />
       <h1>Suffering and Christinaity</h1>
-      <h2>1/25/2021</h2>
+      <h2>1\25\2021</h2>
       <img src="/coverArt1.jpg" alt="placeholderImg" width={200} height={200} />
       <p>
         <em>

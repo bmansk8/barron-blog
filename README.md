@@ -1,7 +1,7 @@
 ## My Personal Blog
 
 This is really a simple side project for me. A place to share some of my more creative work.
-Also a good excuse to get into using Next.js
+Also a good excuse to get into using Next.js.
 I am yet to get this project hosted but that will come at some point!
 
 ## Getting Started

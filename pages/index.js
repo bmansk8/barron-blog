@@ -1,3 +1,4 @@
+import Article_pseudoChristianBands from "./posts/article_pseudoChristianBands"
 import Article_suffering from "./posts/article_suffering";
 import Song_questing from "./posts/song_questing";
 import Photo_fog from "./posts/photo_fog";
@@ -22,6 +23,7 @@ export default function Home() {
         </p>
       </header>
 
+      <Article_pseudoChristianBands />
       <Photo_fog />
       <Song_questing />
       <Article_suffering />
