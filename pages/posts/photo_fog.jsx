@@ -1,4 +1,4 @@
-export default function Photo_fog(params) {
+export default function Photo_hiking(params) {
   return (
     <div className="gallery">
       <link
@@ -6,12 +6,12 @@ export default function Photo_fog(params) {
         rel="stylesheet"
       />
       <h1>the fog collection</h1>
-      <img src="/coverArt1.jpg" alt="photo in gallery" />
-      <img src="/coverArt2.jpg" alt="photo in gallery" />
-      <img src="/coverArt3.jpg" alt="photo in gallery" />
-      <img src="/coverArt4.jpg" alt="photo in gallery" />
-      <img src="/coverArt5.jpg" alt="photo in gallery" />
-      <img src="/coverArt6.jpg" alt="photo in gallery" />
+      <img src="/photo_fog/coverArt1.jpg" alt="photo in gallery" />
+      <img src="/photo_fog/coverArt2.jpg" alt="photo in gallery" />
+      <img src="/photo_fog/coverArt3.jpg" alt="photo in gallery" />
+      <img src="/photo_fog/coverArt4.jpg" alt="photo in gallery" />
+      <img src="/photo_fog/coverArt5.jpg" alt="photo in gallery" />
+      <img src="/photo_fog/coverArt6.jpg" alt="photo in gallery" />
       <p>
         <em>
           <span className="firstW">So,</span>

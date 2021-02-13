@@ -7,7 +7,7 @@ export default function Article_suffering() {
       />
       <h1>Pseudo Christian Bands</h1>
       <h2>2\11\2021</h2>
-      <img src="/coverArt9.jpg" alt="placeholderImg" width={200} height={200} />
+      <img src="/photo_hiking/coverArt9.jpg" alt="placeholderImg" width={200} height={200} />
       <p>
         <em>
           <span className="firstW">With </span>

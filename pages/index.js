@@ -2,6 +2,7 @@ import Article_pseudoChristianBands from "./posts/article_pseudoChristianBands"
 import Article_suffering from "./posts/article_suffering";
 import Song_questing from "./posts/song_questing";
 import Photo_fog from "./posts/photo_fog";
+import Photo_hiking from "./posts/photo_hiking"
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         </p>
       </header>
 
+      <Photo_hiking />
       <Article_pseudoChristianBands />
       <Photo_fog />
       <Song_questing />
