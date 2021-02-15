@@ -7,8 +7,14 @@
   padding: 25px;
   border-radius: 1.5%;
   margin-bottom: 50px;
-/*
+
+  .photo{
+    width: 16vw;
+    display: inline-block;
+  }
+
   .btn{
+    display: block;
     background-color: $accent1;
     padding: 5px;
     border-radius: 5%;
@@ -19,12 +25,12 @@
     transform: scale(1.1);
     transition: 0.4s;
   }
-
+/*s
   add a download button at some point
 */
   img{
     aspect-ratio: 1/1;
-    width: 32%;
+    width: 15vw;
     padding: 5px;
     background-color: $secondary;
     border-radius: 3%;
@@ -40,9 +46,19 @@
   .gallery{
     margin: 50px;
     border-radius: 0;
+
+    .btn{
+      display: none;
+    }
+
+    .photo{
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
     img{
-      width: 48%;
+      width: 100%;
     }
   }
 }
-  

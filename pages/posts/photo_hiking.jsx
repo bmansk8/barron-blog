@@ -1,20 +1,26 @@
-export default function Photo_fog(params) {
+export default function Photo_hiking(params) {
   return (
     <div className="gallery">
       <link
         href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap"
         rel="stylesheet"
       />
-      <h1>the hiking collection</h1>
+      <h1>the hiking collection</h1> 
 
-      {/*
-        <a href='#' download></a>
-        add a download button at some point
-      */}  
-
-      <img src="/photo_hiking/coverArt7.jpg" alt="photo in gallery" />
-      <img src="/photo_hiking/coverArt8.jpg" alt="photo in gallery" />
-      <img src="/photo_hiking/coverArt9.jpg" alt="photo in gallery" />
+      <div>
+        <div className="photo">
+          <a className='btn' href="/photo_hiking/coverArt7.jpg" download>Download</a>
+          <img src="/photo_hiking/coverArt7.jpg" alt="photo in gallery" />
+        </div>
+        <div className="photo">
+          <a className='btn' href="/photo_hiking/coverArt8.jpg" download>Download</a>
+          <img src="/photo_hiking/coverArt8.jpg" alt="photo in gallery" />
+        </div>
+        <div className="photo">
+          <a className='btn' href="/photo_hiking/coverArt9.jpg" download>Download</a>
+          <img src="/photo_hiking/coverArt9.jpg" alt="photo in gallery" />
+        </div>
+      </div>
 
       <p>
         <em>

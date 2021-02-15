@@ -17,3 +17,15 @@ text-align: center;
   color: $accent1;
   text-decoration: underline $accent2;
 }
+
+@media (max-width: 768px){
+  h1{
+    font-size: larger;
+  }
+  p{
+    font-size: medium;
+  }
+  a{
+    font-size: small;
+  }
+}
