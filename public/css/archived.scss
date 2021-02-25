@@ -1,0 +1,29 @@
+@import "../utilities/varibles";
+
+.archived{
+  background-color: $primary;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 25px;
+  border-radius: 1.5%;
+  margin-bottom: 50px;
+
+  li{
+    padding: 8px;
+  }
+
+  a:hover{
+    background-color: $accent1;
+    transform: scale(1.1);
+    transition: 0.4s;
+    padding: 5px;
+    border-radius: 5%;
+  }
+}
+
+@media(max-width:768px){
+  .archived{
+    margin: 50px;
+    border-radius: 0;
+  }
+}
