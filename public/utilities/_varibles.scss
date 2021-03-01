@@ -1,3 +1,24 @@
+/*cool version*/
+  $background: #0B132B;
+  $primary:#1C2541;
+  $secondary:#3A506B;
+  $accent1:#5BC0BE;
+  $accent2:#6FFFE9;
+
+  @mixin tablet {
+    margin: 50px;
+    border-radius: 0;
+  }
+
+  @mixin default {
+    background-color: $primary;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 25px;
+    border-radius: 1.5%;
+    margin-top: 50px;
+  }
+
 /*
 possiable new one?
 $background: #000000;
@@ -7,13 +28,6 @@ $accent1:#C8B8DB;
 $accent2:#F9F4F5;
 */
 
-/*
-cool version*/
-  $background: #0B132B;
-  $primary:#1C2541;
-  $secondary:#3A506B;
-  $accent1:#5BC0BE;
-  $accent2:#6FFFE9;
 /*
 org color shceme
   $background: #0D1B1E;

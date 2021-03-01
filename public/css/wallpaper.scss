@@ -1,12 +1,7 @@
 @import "../utilities/varibles";
 
 .w_gallery{
-  background-color: $primary;
-  margin-left: 20%;
-  margin-right: 20%;
-  padding: 25px;
-  border-radius: 1.5%;
-  margin-bottom: 50px;
+  @include default;
 
   .photo{
     width: 28vw;
@@ -42,8 +37,7 @@
 
 @media(max-width:768px){
   .w_gallery{
-    margin: 50px;
-    border-radius: 0;
+    @include tablet;
 
     .btn{
       display: none;

@@ -1,10 +1,10 @@
-import Article_pseudoChristianBands from "./posts/article_pseudoChristianBands";
-import Article_suffering from "./posts/article_suffering";
-import Song_questing from "./posts/song_questing";
-import Photo_fog from "./posts/photo_fog";
-import Photo_hiking from "./posts/photo_hiking";
-import Song_lyingInTheSand from "./posts/song_lyingInTheSand";
-import Wallpaper_large from "./posts/wallpaper_large";
+import Article_pseudoChristianBands from "./posts/articles/article_pseudoChristianBands";
+import Article_suffering from "./posts/articles/article_suffering";
+import Song_questing from "./posts/songs/song_questing";
+import Photo_fog from "./posts/photos/photo_fog";
+import Photo_hiking from "./posts/photos/photo_hiking";
+import Song_lyingInTheSand from "./posts/songs/song_lyingInTheSand";
+import Wallpaper_large from "./posts/photos/wallpaper_large";
 
 export default function Home() {
   return (
