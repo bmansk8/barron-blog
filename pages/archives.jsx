@@ -25,7 +25,7 @@ export async function getStaticProps() {
 function A_li(props) {
   return (
     <li>
-      <a href={"/posts/" + props.name}>{props.name} </a>
+      <a href={props.route + props.name}>{props.name} </a>
     </li>
   );
 }
@@ -41,16 +41,18 @@ export default function archived({ articlesClean, photosClean, songsClean }) {
       <p>A list of all my posts on the site so far.</p>
       <ul>
         <h3>Articles</h3>
+
+        {/* at some point will want to get the ruote from getStaicProps and just pass it along but for now this works*/}
         {articlesClean.map((name, i) => {
-          return <A_li name={name} key={i} />;
+          return <A_li route={"/posts/articles/"} name={name} key={i} />;
         })}
         <h3>Photos</h3>
         {photosClean.map((name, i) => {
-          return <A_li name={name} key={i} />;
+          return <A_li route={"/posts/photos/"} name={name} key={i} />;
         })}
         <h3>Songs</h3>
         {songsClean.map((name, i) => {
-          return <A_li name={name} key={i} />;
+          return <A_li route={"/posts/songs/"} name={name} key={i} />;
         })}
       </ul>
       <a href="/">Home Page</a>
