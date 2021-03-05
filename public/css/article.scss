@@ -8,6 +8,10 @@
     background-color: $secondary;
     border-radius: 5%;
   }
+
+  .special_underline{
+    text-decoration: underline $accent2;
+  }
 }
   
 @media(max-width:768px){

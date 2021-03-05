@@ -1,36 +1,27 @@
 import fs from "fs";
+import A_li from '../public/utilities/A_li'
 
 export async function getStaticProps() {
-  /*for sure this code can be refactored somehow...*/
-  const namesArticle = fs.readdirSync("./pages/posts/articles");
-  const articlesClean = namesArticle.map((i) => {
-    i = i.replace(/\.jsx$/, "");
-    return i;
-  });
-  const namesPhotos = fs.readdirSync("./pages/posts/photos");
-  const photosClean = namesPhotos.map((i) => {
-    i = i.replace(/\.jsx$/, "");
-    return i;
-  });
-  const namesSongs = fs.readdirSync("./pages/posts/songs");
-  const songsClean = namesSongs.map((i) => {
-    i = i.replace(/\.jsx$/, "");
-    return i;
+  /*
+  arr[0] is articles
+  arr[1] is photos
+  arr[2] is songs
+  */
+  const directories = ["/articles", "/photos", "/songs"];
+  const cleanNames = [];
+
+  directories.forEach((i) => {
+    let temp = fs.readdirSync("./pages/posts" + i).map((i) => {
+      i = i.replace(/\.jsx$/, "");
+      return i;
+    });
+    cleanNames.push(temp);
   });
 
-  return { props: { articlesClean, photosClean, songsClean } };
+  return { props: { cleanNames } };
 }
 
-/*this should be in it's own file at some point */
-function A_li(props) {
-  return (
-    <li>
-      <a href={props.route + props.name}>{props.name} </a>
-    </li>
-  );
-}
-
-export default function archived({ articlesClean, photosClean, songsClean }) {
+export default function archived({ cleanNames }) {
   return (
     <div className="archived">
       <link
@@ -41,17 +32,15 @@ export default function archived({ articlesClean, photosClean, songsClean }) {
       <p>A list of all my posts on the site so far.</p>
       <ul>
         <h3>Articles</h3>
-
-        {/* at some point will want to get the ruote from getStaicProps and just pass it along but for now this works*/}
-        {articlesClean.map((name, i) => {
+        {cleanNames[0].map((name, i) => {
           return <A_li route={"/posts/articles/"} name={name} key={i} />;
         })}
         <h3>Photos</h3>
-        {photosClean.map((name, i) => {
+        {cleanNames[1].map((name, i) => {
           return <A_li route={"/posts/photos/"} name={name} key={i} />;
         })}
         <h3>Songs</h3>
-        {songsClean.map((name, i) => {
+        {cleanNames[2].map((name, i) => {
           return <A_li route={"/posts/songs/"} name={name} key={i} />;
         })}
       </ul>
@@ -59,9 +48,8 @@ export default function archived({ articlesClean, photosClean, songsClean }) {
     </div>
   );
 }
-
 /*
-I grab filenames from posts and clean them so they can be rendered in archived
+I grab filenames from /posts and remove the jsx extension [0] is articles [1] is photos [2] is songs
 
-should stick A_li in a sepreate file at some point
+I then map through each array and pass the props to A_li and that returns the li tags with the a tags nested inside
 */

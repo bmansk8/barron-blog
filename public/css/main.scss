@@ -1,31 +1,33 @@
 @import "../utilities/varibles";
 
-header{
-text-align: center;
-  P{
-    margin-left:15%;
-    margin-right:15%;
+header {
+  text-align: center;
+  P {
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }
 
-footer{
-text-align: center;
+footer {
+  text-align: center;
 }
 
-
-.special{
+.special {
   color: $accent1;
   text-decoration: underline $accent2;
 }
 
-@media (max-width: 768px){
-  h1{
+@media (max-width: 768px) {
+  header {
+    margin-top: 60px;
+  }
+  h1 {
     font-size: larger;
   }
-  p{
+  p {
     font-size: medium;
   }
-  a{
-    font-size: small;
+  a {
+    font-size: medium;
   }
 }

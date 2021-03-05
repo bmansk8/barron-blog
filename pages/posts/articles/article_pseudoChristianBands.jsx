@@ -10,9 +10,9 @@ export default function Article_suffering() {
       <img src="/photo_hiking/coverArt9.jpg" alt="placeholderImg" width={200} height={200} />
       <p>
         <em>
-          <span className="firstW">With </span>
+          <span className="firstW">With</span>
         </em>
-        a title like that what am I talking about? So my topic is that of bands
+        {' '}a title like that what am I talking about? So my topic is that of bands
         that are not in the christian music genre, yet have christian lyrics.
         Why do bands go this route? Is this a form of being neither hot nor
         cold? And is there somewhat a stigma against the “christian music”
