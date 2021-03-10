@@ -2,7 +2,10 @@
 
 This is really a simple side project for me. A place to share some of my more creative work.
 Also a good excuse to get into using Next.js.
-I am yet to get this project hosted but that will come at some point!
+
+## See it hosted on vercel!
+
+[`barron-blog.vercel.app`](https://barron-blog.vercel.app)
 
 ## Getting Started
 
