@@ -7,6 +7,7 @@ export default function Song_aWhisper(params) {
       />
       <h1>A Whisper</h1>
       <iframe
+        title="A Whisper"
         width="400"
         height="400"
         scrolling="no"

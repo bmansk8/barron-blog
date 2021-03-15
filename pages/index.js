@@ -1,5 +1,5 @@
 import Article_pseudoChristianBands from "./posts/articles/article_pseudoChristianBands";
-import Article_EP from "./posts/articles/article_EP"
+import Article_EP from "./posts/articles/article_EP";
 import Photo_fog from "./posts/photos/photo_fog";
 import Photo_hiking from "./posts/photos/photo_hiking";
 import Song_aWhisper from "./posts/songs/song_aWhisper";

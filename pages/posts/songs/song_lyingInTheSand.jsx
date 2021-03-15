@@ -5,13 +5,9 @@ export default function Song_lyingInTheSand(params) {
         href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap"
         rel="stylesheet"
       />
-      <h1>Lying In The Sand</h1>
-
-      {/* 
-      I want to start using my rss feed at some point
-      */}
-
+      <h1>Laying In The Sand</h1>
       <iframe
+        title="Laying In The Sand"
         width="400"
         height="400"
         scrolling="no"
