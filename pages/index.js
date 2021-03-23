@@ -1,9 +1,6 @@
-import Article_pseudoChristianBands from "./posts/articles/article_pseudoChristianBands";
 import Article_EP from "./posts/articles/article_EP";
-import Photo_fog from "./posts/photos/photo_fog";
-import Photo_hiking from "./posts/photos/photo_hiking";
-import Song_aWhisper from "./posts/songs/song_aWhisper";
-import Wallpaper_large from "./posts/photos/wallpaper_large";
+import Photo_night from "./posts/photos/photo_night";
+import Song_ifICouldSee from "./posts/songs/song_ifICouldSee";
 
 export default function Home() {
   return (
@@ -29,17 +26,14 @@ export default function Home() {
         <p>
           If you want to see the complete list of all my posts simply click{" "}
           <a className="special" href="/archives">
-            here
+            archives
           </a>{" "}
         </p>
       </header>
 
+      <Song_ifICouldSee />
+      <Photo_night />
       <Article_EP />
-      <Song_aWhisper />
-      <Photo_hiking />
-      <Article_pseudoChristianBands />
-      <Wallpaper_large />
-      <Photo_fog />
 
       <footer>
         <p>

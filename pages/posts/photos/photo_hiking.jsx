@@ -5,19 +5,25 @@ export default function Photo_hiking(params) {
         href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap"
         rel="stylesheet"
       />
-      <h1>the hiking collection</h1> 
+      <h1>the hiking collection</h1>
 
       <div>
         <div className="photo">
-          <a className='btn' href="/photo_hiking/coverArt7.jpg" download>Download</a>
+          <a className="btn" href="/photo_hiking/coverArt7.jpg" download>
+            Download
+          </a>
           <img src="/photo_hiking/coverArt7.jpg" alt="photo in gallery" />
         </div>
         <div className="photo">
-          <a className='btn' href="/photo_hiking/coverArt8.jpg" download>Download</a>
+          <a className="btn" href="/photo_hiking/coverArt8.jpg" download>
+            Download
+          </a>
           <img src="/photo_hiking/coverArt8.jpg" alt="photo in gallery" />
         </div>
         <div className="photo">
-          <a className='btn' href="/photo_hiking/coverArt9.jpg" download>Download</a>
+          <a className="btn" href="/photo_hiking/coverArt9.jpg" download>
+            Download
+          </a>
           <img src="/photo_hiking/coverArt9.jpg" alt="photo in gallery" />
         </div>
       </div>
@@ -32,9 +38,8 @@ export default function Photo_hiking(params) {
         back down most of the fog had lifted. There are some wallpaper sized
         photos but i’m saving those for later thus why there are so few in this
         collection. Had an amazing time and would highly recommend going to
-        preachers rock if you are ever in Georgia. Also, fun fact, simply right
-        click on any photo and say save as! Feel free to download any of my
-        photos.
+        preachers rock if you are ever in Georgia. Also, fun fact, hit that
+        download button if you want to save some of my work!
       </p>
     </div>
   );
