@@ -10,7 +10,7 @@
 
   .btn{
     display: block;
-    background-color: $accent1;
+    background-color: $button;
     padding: 5px;
     border-radius: 5%;
     width: 110px;
@@ -20,9 +20,7 @@
     transform: scale(1.1);
     transition: 0.4s;
   }
-/*s
-  add a download button at some point
-*/
+
   img{
     aspect-ratio: 1/1;
     width: 15vw;

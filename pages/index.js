@@ -1,6 +1,7 @@
 import Article_EP from "./posts/articles/article_EP";
 import Photo_night from "./posts/photos/photo_night";
 import Song_ifICouldSee from "./posts/songs/song_ifICouldSee";
+import Song_theDunningKrugerEffect from "./posts/songs/song_theDunningKrugerEffect";
 
 export default function Home() {
   return (
@@ -31,16 +32,16 @@ export default function Home() {
         </p>
       </header>
 
-      <Song_ifICouldSee />
+      <Song_theDunningKrugerEffect />
       <Photo_night />
       <Article_EP />
+      <Song_ifICouldSee />
 
       <footer>
         <p>
-          Can't find what you're looking for? I might have it archived, simply
-          click{" "}
+          Can't find what you're looking for? I might have it{" "}
           <a className="special" href="/archives">
-            here
+            archived
           </a>{" "}
         </p>
         <h2>Made by barron v brock</h2>

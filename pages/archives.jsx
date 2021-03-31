@@ -1,5 +1,5 @@
 import fs from "fs";
-import A_li from '../public/utilities/A_li'
+import A_li from "../public/utilities/A_li";
 
 export async function getStaticProps() {
   /*
@@ -12,7 +12,13 @@ export async function getStaticProps() {
 
   directories.forEach((i) => {
     let temp = fs.readdirSync("./pages/posts" + i).map((i) => {
-      i = i.replace(/\.jsx$/, "");
+      i = i
+        .replace(/\.jsx$/, "")
+        .replace(/song_/, "")
+        .replace(/article_/, "")
+        .replace(/photo_/, "")
+        .replace(/([A-Z])/g, " $1")
+        .trim();
       return i;
     });
     cleanNames.push(temp);

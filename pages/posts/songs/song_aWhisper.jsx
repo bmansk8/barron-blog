@@ -1,4 +1,4 @@
-export default function Song_aWhisper(params) {
+export default function Song_aWhisper() {
   return (
     <div className="song">
       <link
