@@ -6,20 +6,32 @@ export async function getStaticProps() {
   arr[0] is articles
   arr[1] is photos
   arr[2] is songs
+
+  [
+    [{name, route},{name, route},{name, route} ect...]
+    [{name, route},{name, route},{name, route}]
+    [{name, route},{name, route},{name, route}] ect...
+  ]
+
   */
   const directories = ["/articles", "/photos", "/songs"];
   const cleanNames = [];
 
   directories.forEach((i) => {
     let temp = fs.readdirSync("./pages/posts" + i).map((i) => {
-      i = i
+      let obj = {
+        name: "",
+        route: "",
+      };
+      obj.route = i.replace(/\.jsx$/, "");
+      obj.name = i
         .replace(/\.jsx$/, "")
         .replace(/song_/, "")
         .replace(/article_/, "")
         .replace(/photo_/, "")
         .replace(/([A-Z])/g, " $1")
         .trim();
-      return i;
+      return obj;
     });
     cleanNames.push(temp);
   });
@@ -38,16 +50,22 @@ export default function archived({ cleanNames }) {
       <p>A list of all my posts on the site so far.</p>
       <ul>
         <h3>Articles</h3>
-        {cleanNames[0].map((name, i) => {
-          return <A_li route={"/posts/articles/"} name={name} key={i} />;
+        {cleanNames[0].map((i) => {
+          return (
+            <A_li route={"/posts/articles/" + i.route} name={i.name} key={i} />
+          );
         })}
         <h3>Photos</h3>
-        {cleanNames[1].map((name, i) => {
-          return <A_li route={"/posts/photos/"} name={name} key={i} />;
+        {cleanNames[1].map((i) => {
+          return (
+            <A_li route={"/posts/photos/" + i.route} name={i.name} key={i} />
+          );
         })}
         <h3>Songs</h3>
-        {cleanNames[2].map((name, i) => {
-          return <A_li route={"/posts/songs/"} name={name} key={i} />;
+        {cleanNames[2].map((i) => {
+          return (
+            <A_li route={"/posts/songs/" + i.route} name={i.name} key={i} />
+          );
         })}
       </ul>
       <a href="/">Home Page</a>
