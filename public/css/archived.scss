@@ -1,13 +1,13 @@
 @import "../utilities/varibles";
 
-.archived{
+.archived {
   @include default;
 
-  li{
+  li {
     padding: 8px;
   }
 
-  a:hover{
+  a:hover {
     background-color: $accent1;
     transform: scale(1.1);
     transition: 0.4s;
@@ -16,8 +16,8 @@
   }
 }
 
-@media(max-width:768px){
-  .archived{
+@media (max-width: 768px) {
+  .archived {
     @include tablet;
   }
 }

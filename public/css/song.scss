@@ -1,23 +1,21 @@
-@import "../utilities/varibles";
+@import '../utilities/varibles';
 
-.song{
-  @include default;
+.song {
+    @include default;
 
-  iframe{
-    padding: 5px;
-    background-color: $secondary;
-    border-radius: 3%;
-  }
-
-}
-
-@media(max-width:768px){
-  .song{
-    @include tablet;
-    iframe{
-      width: 100%;
-      height: 300px;
+    iframe {
+        padding: 5px;
+        background-color: $secondary;
+        border-radius: 3%;
     }
-  }
 }
-  
+
+@media (max-width: 768px) {
+    .song {
+        @include tablet;
+        iframe {
+            width: 100%;
+            height: 300px;
+        }
+    }
+}

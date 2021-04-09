@@ -1,24 +1,24 @@
 /*cool version*/
-  $background: #0B132B;
-  $primary:#1C2541;
-  $secondary:#3A506B;
-  $accent1:#5BC0BE;
-  $accent2:#6FFFE9;
-  $button:#1B4645;
+$background: #0b132b;
+$primary: #1c2541;
+$secondary: #3a506b;
+$accent1: #5bc0be;
+$accent2: #6fffe9;
+$button: #1b4645;
 
-  @mixin tablet {
+@mixin tablet {
     margin: 50px;
     border-radius: 0;
-  }
+}
 
-  @mixin default {
+@mixin default {
     background-color: $primary;
     margin-left: 20%;
     margin-right: 20%;
     padding: 25px;
     border-radius: 1.5%;
     margin-top: 50px;
-  }
+}
 
 /*
 possiable new one?

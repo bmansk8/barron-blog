@@ -1,21 +1,21 @@
 @import "../utilities/varibles";
 
-.article{
+.article {
   @include default;
 
-  img{
+  img {
     padding: 5px;
     background-color: $secondary;
     border-radius: 5%;
   }
 
-  .special_underline{
+  .special_underline {
     text-decoration: underline $accent2;
   }
 }
-  
-@media(max-width:768px){
-  .article{
+
+@media (max-width: 768px) {
+  .article {
     @include tablet;
   }
 }

@@ -1,33 +1,33 @@
-@import "../utilities/varibles";
+@import '../utilities/varibles';
 
 header {
-  text-align: center;
-  P {
-    margin-left: 15%;
-    margin-right: 15%;
-  }
+    text-align: center;
+    P {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
 }
 
 footer {
-  text-align: center;
+    text-align: center;
 }
 
 .special {
-  color: $accent1;
-  text-decoration: underline $accent2;
+    color: $accent1;
+    text-decoration: underline $accent2;
 }
 
 @media (max-width: 768px) {
-  header {
-    margin-top: 60px;
-  }
-  h1 {
-    font-size: larger;
-  }
-  p {
-    font-size: medium;
-  }
-  a {
-    font-size: medium;
-  }
+    header {
+        margin-top: 60px;
+    }
+    h1 {
+        font-size: larger;
+    }
+    p {
+        font-size: medium;
+    }
+    a {
+        font-size: medium;
+    }
 }
