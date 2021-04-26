@@ -1,7 +1,7 @@
 import Article_EP from './posts/articles/article_EP'
-import Photo_night from './posts/photos/photo_night'
 import Song_ifICouldSee from './posts/songs/song_ifICouldSee'
 import Song_theDunningKrugerEffect from './posts/songs/song_theDunningKrugerEffect'
+import Photo_spring from './posts/photos/photo_spring'
 
 export default function Home() {
     return (
@@ -33,8 +33,8 @@ export default function Home() {
                 </p>
             </header>
 
+            <Photo_spring />
             <Song_theDunningKrugerEffect />
-            <Photo_night />
             <Article_EP />
             <Song_ifICouldSee />
 
