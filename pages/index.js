@@ -1,7 +1,6 @@
-import Article_EP from './posts/articles/article_EP'
-import Song_ifICouldSee from './posts/songs/song_ifICouldSee'
-import Song_theDunningKrugerEffect from './posts/songs/song_theDunningKrugerEffect'
-import Photo_spring from './posts/photos/photo_spring'
+import Article_fitness from './posts/articles/article_fitness'
+import Photo_walking from './posts/photos/photo_walking'
+import Song_memories from './posts/songs/song_memories'
 
 export default function Home() {
     return (
@@ -26,17 +25,16 @@ export default function Home() {
                 </p>
                 <p>
                     If you want to see the complete list of all my posts simply
-                    click{' '}
+                    go to my{' '}
                     <a className="special" href="/archives">
                         archives
                     </a>{' '}
                 </p>
             </header>
 
-            <Photo_spring />
-            <Song_theDunningKrugerEffect />
-            <Article_EP />
-            <Song_ifICouldSee />
+            <Photo_walking />
+            <Song_memories />
+            <Article_fitness />
 
             <footer>
                 <p>

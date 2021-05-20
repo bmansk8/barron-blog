@@ -2,11 +2,12 @@
 
 .archived {
   @include default;
+  margin-bottom: 50px;
 
   li {
     padding: 8px;
   }
-
+  
   a:hover {
     background-color: $accent1;
     transform: scale(1.1);

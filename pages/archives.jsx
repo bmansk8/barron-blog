@@ -30,9 +30,16 @@ export async function getStaticProps() {
                 .replace(/article_/, '')
                 .replace(/photo_/, '')
                 .replace(/([A-Z])/g, ' $1')
+                .replace(/^(.)|\s+(.)/g, c => c.toUpperCase())
                 .trim()
             return obj
         })
+        /* 
+        so the first .replace gits rid of the .jsx file exstention.
+        then I remove song article and photo from the name.
+        then add a space before every capital letter because they are all camel case.
+        then take the fisrt character and uppercase it. 
+         */
         cleanNames.push(temp)
     })
 
