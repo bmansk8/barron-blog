@@ -1,5 +1,5 @@
 import Article_fitness from './posts/articles/article_fitness'
-import Photo_walking from './posts/photos/photo_walking'
+import Photo_cloudlandCanyon from './posts/photos/photo_cloudlandCanyon'
 import Song_memories from './posts/songs/song_memories'
 
 export default function Home() {
@@ -32,7 +32,7 @@ export default function Home() {
                 </p>
             </header>
 
-            <Photo_walking />
+            <Photo_cloudlandCanyon />
             <Song_memories />
             <Article_fitness />
 
