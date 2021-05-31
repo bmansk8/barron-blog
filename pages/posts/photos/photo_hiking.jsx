@@ -11,39 +11,39 @@ export default function Photo_hiking(params) {
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/photo_hiking/coverArt7.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/hiking/coverArt7.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/photo_hiking/coverArt7.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/hiking/coverArt7.jpg"
                         alt="photo in gallery"
                     />
                 </div>
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/photo_hiking/coverArt8.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/hiking/coverArt8.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/photo_hiking/coverArt8.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/hiking/coverArt8.jpg"
                         alt="photo in gallery"
                     />
                 </div>
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/photo_hiking/coverArt9.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/hiking/coverArt9.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/photo_hiking/coverArt9.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/hiking/coverArt9.jpg"
                         alt="photo in gallery"
                     />
                 </div>

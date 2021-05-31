@@ -11,143 +11,143 @@ export default function wallpaper_large(params) {
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/wallpaper_large/wallpaper 01.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+01.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/wallpaper_large/wallpaper 01.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+01.jpg"
                         alt="wallpaper in gallery"
                     />
                 </div>
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/wallpaper_large/wallpaper 02.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+02.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/wallpaper_large/wallpaper 02.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+02.jpg"
                         alt="wallpaper in gallery"
                     />
                 </div>
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/wallpaper_large/wallpaper 1.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+1.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/wallpaper_large/wallpaper 1.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+1.jpg"
                         alt=" in gallery"
                     />
                 </div>
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/wallpaper_large/wallpaper 2.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+2.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/wallpaper_large/wallpaper 2.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+2.jpg"
                         alt="wallpaper in gallery"
                     />
                 </div>
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/wallpaper_large/wallpaper 3.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+3.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/wallpaper_large/wallpaper 3.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+3.jpg"
                         alt="wallpaper in gallery"
                     />
                 </div>
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/wallpaper_large/wallpaper 4.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+4.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/wallpaper_large/wallpaper 4.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+4.jpg"
                         alt="wallpaper in gallery"
                     />
                 </div>
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/wallpaper_large/wallpaper 5.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+5.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/wallpaper_large/wallpaper 5.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+5.jpg"
                         alt="wallpaper in gallery"
                     />
                 </div>
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/wallpaper_large/wallpaper 6.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+6.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/wallpaper_large/wallpaper 6.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+6.jpg"
                         alt="wallpaper in gallery"
                     />
                 </div>
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/wallpaper_large/wallpaper 7.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+7.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/wallpaper_large/wallpaper 7.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+7.jpg"
                         alt="wallpaper in gallery"
                     />
                 </div>
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/wallpaper_large/wallpaper 8.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+8.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/wallpaper_large/wallpaper 8.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+8.jpg"
                         alt="wallpaper in gallery"
                     />
                 </div>
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/wallpaper_large/wallpaper 9.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+9.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/wallpaper_large/wallpaper 9.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/wallpaper_large/wallpaper+9.jpg"
                         alt="wallpaper in gallery"
                     />
                 </div>

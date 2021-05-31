@@ -11,13 +11,13 @@ export default function Photo_walking(params) {
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/photo_walking/cover art 34.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/walking/cover+art+34.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/photo_walking/cover art 34.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/walking/cover+art+34.jpg"
                         alt="photo in gallery"
                     />
                 </div>
@@ -25,13 +25,13 @@ export default function Photo_walking(params) {
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/photo_walking/cover art 35.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/walking/cover+art+35.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/photo_walking/cover art 35.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/walking/cover+art+35.jpg"
                         alt="photo in gallery"
                     />
                 </div>
@@ -39,13 +39,13 @@ export default function Photo_walking(params) {
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/photo_walking/cover art 36.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/walking/cover+art+36.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/photo_walking/cover art 36.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/walking/cover+art+36.jpg"
                         alt="photo in gallery"
                     />
                 </div>
@@ -53,13 +53,13 @@ export default function Photo_walking(params) {
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/photo_walking/cover art 37.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/walking/cover+art+37.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/photo_walking/cover art 37.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/walking/cover+art+37.jpg"
                         alt="photo in gallery"
                     />
                 </div>
@@ -67,13 +67,13 @@ export default function Photo_walking(params) {
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/photo_walking/cover art 38.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/walking/cover+art+38.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/photo_walking/cover art 38.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/walking/cover+art+38.jpg"
                         alt="photo in gallery"
                     />
                 </div>
@@ -81,13 +81,13 @@ export default function Photo_walking(params) {
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/photo_walking/cover art 39.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/walking/cover+art+39.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/photo_walking/cover art 39.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/walking/cover+art+39.jpg"
                         alt="photo in gallery"
                     />
                 </div>

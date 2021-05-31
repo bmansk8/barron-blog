@@ -11,52 +11,52 @@ export default function Photo_spring(params) {
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/photo_spring/coverArt28.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/spring/coverArt28.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/photo_spring/coverArt28.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/spring/coverArt28.jpg"
                         alt="photo in gallery"
                     />
                 </div>
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/photo_spring/coverArt29.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/spring/coverArt29.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/photo_spring/coverArt29.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/spring/coverArt29.jpg"
                         alt="photo in gallery"
                     />
                 </div>
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/photo_spring/coverArt30.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/spring/coverArt30.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/photo_spring/coverArt30.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/spring/coverArt30.jpg"
                         alt="photo in gallery"
                     />
                 </div>
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/photo_spring/coverArt31.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/spring/coverArt31.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/photo_spring/coverArt31.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/spring/coverArt31.jpg"
                         alt="photo in gallery"
                     />
                 </div>

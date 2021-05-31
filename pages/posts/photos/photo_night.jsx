@@ -11,13 +11,13 @@ export default function Photo_night(params) {
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/photo_night/cover art 12.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/night/cover+art+12.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/photo_night/cover art 12.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/night/cover+art+12.jpg"
                         alt="photo in gallery"
                     />
                 </div>
@@ -25,13 +25,13 @@ export default function Photo_night(params) {
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/photo_night/cover art 14.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/night/cover+art+14.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/photo_night/cover art 14.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/night/cover+art+14.jpg"
                         alt="photo in gallery"
                     />
                 </div>
@@ -39,13 +39,13 @@ export default function Photo_night(params) {
                 <div className="photo">
                     <a
                         className="btn"
-                        href="/photo_night/cover art 15.jpg"
+                        href="https://barron-blog-photo.s3.amazonaws.com/night/cover+art+15.jpg"
                         download
                     >
                         Download
                     </a>
                     <img
-                        src="/photo_night/cover art 15.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/night/cover+art+15.jpg"
                         alt="photo in gallery"
                     />
                 </div>

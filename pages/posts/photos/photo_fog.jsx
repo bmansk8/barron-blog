@@ -9,56 +9,80 @@ export default function photo_fog(params) {
 
             <div>
                 <div className="photo">
-                    <a className="btn" href="/photo_fog/coverArt1.jpg" download>
+                    <a
+                        className="btn"
+                        download
+                        href="https://barron-blog-photo.s3.amazonaws.com/fog/coverArt1.jpg"
+                    >
                         Download
                     </a>
                     <img
-                        src="/photo_fog/coverArt1.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/fog/coverArt1.jpg"
                         alt="photo in gallery"
                     />
                 </div>
                 <div className="photo">
-                    <a className="btn" href="/photo_fog/coverArt2.jpg" download>
+                    <a
+                        className="btn"
+                        href="https://barron-blog-photo.s3.amazonaws.com/fog/coverArt2.jpg"
+                        download
+                    >
                         Download
                     </a>
                     <img
-                        src="/photo_fog/coverArt2.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/fog/coverArt2.jpg"
                         alt="photo in gallery"
                     />
                 </div>
                 <div className="photo">
-                    <a className="btn" href="/photo_fog/coverArt3.jpg" download>
+                    <a
+                        className="btn"
+                        href="https://barron-blog-photo.s3.amazonaws.com/fog/coverArt3.jpg"
+                        download
+                    >
                         Download
                     </a>
                     <img
-                        src="/photo_fog/coverArt3.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/fog/coverArt3.jpg"
                         alt="photo in gallery"
                     />
                 </div>
                 <div className="photo">
-                    <a className="btn" href="/photo_fog/coverArt4.jpg" download>
+                    <a
+                        className="btn"
+                        href="https://barron-blog-photo.s3.amazonaws.com/fog/coverArt4.jpg"
+                        download
+                    >
                         Download
                     </a>
                     <img
-                        src="/photo_fog/coverArt4.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/fog/coverArt4.jpg"
                         alt="photo in gallery"
                     />
                 </div>
                 <div className="photo">
-                    <a className="btn" href="/photo_fog/coverArt5.jpg" download>
+                    <a
+                        className="btn"
+                        href="https://barron-blog-photo.s3.amazonaws.com/fog/coverArt5.jpg"
+                        download
+                    >
                         Download
                     </a>
                     <img
-                        src="/photo_fog/coverArt5.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/fog/coverArt5.jpg"
                         alt="photo in gallery"
                     />
                 </div>
                 <div className="photo">
-                    <a className="btn" href="/photo_fog/coverArt6.jpg" download>
+                    <a
+                        className="btn"
+                        href="https://barron-blog-photo.s3.amazonaws.com/fog/coverArt6.jpg"
+                        download
+                    >
                         Download
                     </a>
                     <img
-                        src="/photo_fog/coverArt6.jpg"
+                        src="https://barron-blog-photo.s3.amazonaws.com/fog/coverArt6.jpg"
                         alt="photo in gallery"
                     />
                 </div>

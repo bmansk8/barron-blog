@@ -8,7 +8,7 @@ export default function Article_suffering() {
             <h1>Suffering and Christinaity</h1>
             <h2>1\25\2021</h2>
             <img
-                src="/photo_fog/coverArt1.jpg"
+                src="https://barron-blog-photo.s3.amazonaws.com/fog/coverArt1.jpg"
                 alt="placeholderImg"
                 width={200}
                 height={200}

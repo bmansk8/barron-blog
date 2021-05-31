@@ -8,7 +8,7 @@ export default function Article_fitness() {
             <h1>Fitness</h1>
             <h2>5\20\2021</h2>
             <img
-                src="/photo_walking/cover art 34.jpg"
+                src="https://barron-blog-photo.s3.amazonaws.com/walking/cover+art+34.jpg"
                 alt="placeholderImg"
                 width={200}
                 height={200}
