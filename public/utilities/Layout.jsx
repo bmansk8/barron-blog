@@ -14,8 +14,8 @@ export default function Layout({ children }) {
                         <a href="/archives">Archives</a>
                     </li>
                     <li>
-                        <a href="https://distrokid.com/hyperfollow/barronbrock/a-wild-goose-chase">
-                            E.P
+                        <a href="/music">
+                            Music
                         </a>
                     </li>
                 </ul>

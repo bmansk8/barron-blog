@@ -8,7 +8,7 @@ export default function Article_EP() {
             <h1>Realeasing an E.P 🎉</h1>
             <h2>3\8\2021</h2>
             <img
-                src="/E.P/coverArt25.jpg"
+                src="https://barron-blog-photo.s3.amazonaws.com/EP/coverArt25.jpg"
                 alt="placeholderImg"
                 width={200}
                 height={200}
