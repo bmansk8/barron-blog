@@ -3,6 +3,15 @@
 .article {
   @include default;
 
+  @mixin codeSnippets {
+    font-family: system-ui;
+    background: black;
+    padding: 5px;
+    max-width: max-content;
+    line-break: strict;
+    display: inline-flex;
+  }
+
   img {
     padding: 5px;
     background-color: $secondary;
@@ -11,6 +20,39 @@
 
   .special_underline {
     text-decoration: underline $accent2;
+  }
+
+  .terminal{
+    @include codeSnippets();
+    color: orange;
+  }
+
+  .code{
+    @include codeSnippets();
+    color: $accent2;
+  }
+
+  .inlineCode{
+    background: black;
+    color: $accent2;
+    font-family: system-ui;
+    padding: 3px;
+  }
+
+  .links{
+    color: $accent2;
+    text-decoration: underline;
+  }
+
+  pre{
+    width: 95%;
+    p{
+      padding: 10px;
+      background: black;
+      color: $accent2;
+      width: 100%;
+      overflow-x: auto;
+    }
   }
 }
 

@@ -14,7 +14,12 @@ export async function getStaticProps() {
   ]
 
   */
-    const directories = ['/articles', '/photos', '/songs']
+    const directories = [
+        '/articles/general',
+        '/articles/programming',
+        '/photos',
+        '/songs',
+    ]
     const cleanNames = []
 
     directories.forEach((i) => {
@@ -30,7 +35,7 @@ export async function getStaticProps() {
                 .replace(/article_/, '')
                 .replace(/photo_/, '')
                 .replace(/([A-Z])/g, ' $1')
-                .replace(/^(.)|\s+(.)/g, c => c.toUpperCase())
+                .replace(/^(.)|\s+(.)/g, (c) => c.toUpperCase())
                 .trim()
             return obj
         })
@@ -57,17 +62,31 @@ export default function archived({ cleanNames }) {
             <p>A list of all my posts on the site so far.</p>
             <ul>
                 <h3>Articles</h3>
-                {cleanNames[0].map((i) => {
-                    return (
-                        <A_li
-                            route={'/posts/articles/' + i.route}
-                            name={i.name}
-                            key={i}
-                        />
-                    )
-                })}
+                <ul>
+                    <h4>General</h4>
+                    {cleanNames[0].map((i) => {
+                        return (
+                            <A_li
+                                route={'/posts/articles/general/' + i.route}
+                                name={i.name}
+                                key={i}
+                            />
+                        )
+                    })}
+                    <h4>Programming</h4>
+                    {cleanNames[1].map((i) => {
+                        return (
+                            <A_li
+                                route={'/posts/articles/programming/' + i.route}
+                                name={i.name}
+                                key={i}
+                            />
+                        )
+                    })}
+                </ul>
+
                 <h3>Photos</h3>
-                {cleanNames[1].map((i) => {
+                {cleanNames[2].map((i) => {
                     return (
                         <A_li
                             route={'/posts/photos/' + i.route}
@@ -77,7 +96,7 @@ export default function archived({ cleanNames }) {
                     )
                 })}
                 <h3>Songs</h3>
-                {cleanNames[2].map((i) => {
+                {cleanNames[3].map((i) => {
                     return (
                         <A_li
                             route={'/posts/songs/' + i.route}
