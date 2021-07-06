@@ -5,6 +5,7 @@ import '../public/css/main.scss'
 import '../styles/globals.scss'
 import '../public/css/wallpaper.scss'
 import '../public/css/archived.scss'
+import '../public/css/music.scss'
 import Layout from '../public/utilities/Layout'
 import Head from 'next/head'
 

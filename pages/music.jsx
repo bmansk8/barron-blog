@@ -1,6 +1,6 @@
 export default function Music() {
     return (
-        <div className="article">
+        <div className="music">
             <link
                 href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap"
                 rel="stylesheet"
@@ -8,8 +8,8 @@ export default function Music() {
             <img
                 src="https://barron-blog-photo.s3.amazonaws.com/EP/cover+art+41.jpg"
                 alt="placeholderImg"
-                width={300}
-                height={300}
+                width={320}
+                height={320}
             />
             <h1>I make music!</h1>
             <p>

@@ -1,0 +1,28 @@
+@import "../utilities/varibles";
+
+.music {
+  @include default;
+  img {
+    padding: 5px;
+    background-color: $secondary;
+    border-radius: 5%;
+  }
+
+  .special_underline {
+    text-decoration: underline $accent2;
+  }
+  .links{
+    color: $accent2;
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 768px) {
+  .music {
+    @include tablet;
+    img{
+      width: 200px;
+      height: 200px;
+    }
+  }
+}
