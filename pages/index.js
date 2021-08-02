@@ -1,6 +1,6 @@
 import Article_LessCss from './posts/articles/programming/article_lessCss'
-import Photo_cloudlandCanyon from './posts/photos/photo_cloudlandCanyon'
-import Song_heyRuth from './posts/songs/song_heyRuth'
+import Photo_summer from './posts/photos/photo_summer'
+import Song_inYourHand from './posts/songs/song_inYourHand'
 
 export default function Home() {
     return (
@@ -33,8 +33,8 @@ export default function Home() {
             </header>
 
             <Article_LessCss />
-            <Song_heyRuth />
-            <Photo_cloudlandCanyon />
+            <Song_inYourHand />
+            <Photo_summer/>
 
             <footer>
                 <p>

@@ -25,13 +25,13 @@ export default function Article_ArrayManipulation() {
 
             <pre>
                 <p>
-                    {`let arr = [
-  { group: '1', alias: 'a, b, c' },
-  { group: '1', alias: 'a, b, c' },
-  { group: '1', alias: 'a' },
-  { group: '2', alias: 'a' },
-  { group: '2', alias: 'a' },
-]          
+{`let arr = [
+    { group: '1', alias: 'a, b, c' },
+    { group: '1', alias: 'a, b, c' },
+    { group: '1', alias: 'a' },
+    { group: '2', alias: 'a' },
+    { group: '2', alias: 'a' },
+] 
 `}
                 </p>
             </pre>
