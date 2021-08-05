@@ -18,6 +18,11 @@ export default function Layout({ children }) {
                             Music
                         </a>
                     </li>
+                    <li>
+                    <a href="/commentaries">
+                        Commentaries
+                    </a>
+                    </li>
                 </ul>
             </nav>
 

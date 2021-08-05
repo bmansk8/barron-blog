@@ -1,0 +1,35 @@
+@import '../utilities/varibles';
+
+.commentaries{
+  @include default;
+
+  h2{
+    margin-top: 100px;
+  }
+
+  ul{
+     list-style-type: none; 
+     a:hover {
+      background-color: $accent1;
+      transform: scale(1.1);
+      transition: 0.4s;
+      padding: 5px;
+      border-radius: 5%;
+    }
+    li{
+      margin-top: 15px;
+    }
+  }
+
+  a:not(ul a){
+    color: $accent1;
+    text-decoration: underline $accent2;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .commontaries {
+    @include tablet;
+  }
+}

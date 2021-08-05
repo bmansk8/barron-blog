@@ -1,10 +1,6 @@
 export default function wallpaper_large(params) {
     return (
         <div className="w_gallery">
-            <link
-                href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap"
-                rel="stylesheet"
-            />
             <h1>the wallpaper collection</h1>
 
             <div>

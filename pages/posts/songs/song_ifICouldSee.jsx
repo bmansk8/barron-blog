@@ -1,10 +1,6 @@
 export default function Song_ifICouldSee(params) {
     return (
         <div className="song">
-            <link
-                href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap"
-                rel="stylesheet"
-            />
             <h1>If I Could See</h1>
             <iframe
                 title="If I Could See"

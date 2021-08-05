@@ -1,10 +1,6 @@
 export default function Song_theDunningKrugerEffect() {
     return (
         <div className="song">
-            <link
-                href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap"
-                rel="stylesheet"
-            />
             <h1>The Dunning Kruger Effect</h1>
             <iframe
                 title="The Dunning Kruger Effect"

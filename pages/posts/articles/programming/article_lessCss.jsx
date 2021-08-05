@@ -1,10 +1,6 @@
 export default function Article_LessCss() {
     return (
         <div className="article">
-        <link
-                href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap"
-                rel="stylesheet"
-            />
             <h1>Less css!</h1>
             <p>
                 So I said to myself one day that I wanted to use less. Only

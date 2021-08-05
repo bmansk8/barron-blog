@@ -1,10 +1,6 @@
 export default function Photo_hiking(params) {
     return (
         <div className="gallery">
-            <link
-                href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap"
-                rel="stylesheet"
-            />
             <h1>the hiking collection</h1>
 
             <div>

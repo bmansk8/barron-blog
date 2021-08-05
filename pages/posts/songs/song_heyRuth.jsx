@@ -1,10 +1,6 @@
 export default function Song_heyRuth() {
     return (
         <div className="song">
-            <link
-                href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap"
-                rel="stylesheet"
-            />
             <h1>Hey Ruth</h1>
             <iframe
                 title="Hey Ruth"

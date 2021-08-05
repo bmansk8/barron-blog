@@ -1,10 +1,6 @@
 export default function Article_fitness() {
     return (
         <div className="article">
-            <link
-                href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap"
-                rel="stylesheet"
-            />
             <h1>Fitness</h1>
             <h2>5\20\2021</h2>
             <img

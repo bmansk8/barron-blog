@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+@import '../../utilities/varibles';
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.commentary {
+    font-family: 'STIX Two Text', serif;
+    @include default;
+
+    .bible {
+        background: $secondary;
+        padding: 15px;
+    }
+
+    .quote {
+        background: $button;
+        padding: 15px;
+    }
+
+    a {
+        color: $accent1;
+        text-decoration: underline $accent2;
+    }
+
+    .button_group {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 25px;
+        button {
+            font-family: 'Audiowide', cursive;
+            font-size: 1.50em;
+            background-color: black;
+            color: $accent2;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .commentary {
+        @include tablet;
+    }
+}

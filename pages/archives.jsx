@@ -4,15 +4,15 @@ import A_li from '../public/utilities/A_li'
 export async function getStaticProps() {
     /*
   arr[0] is articles
-  arr[1] is photos
-  arr[2] is songs
+  arr[1] is programming
+  arr[2] is photos
+  arr[3] is songs
 
   [
     [{name, route},{name, route},{name, route} ect...]
     [{name, route},{name, route},{name, route}]
     [{name, route},{name, route},{name, route}] ect...
   ]
-
   */
     const directories = [
         '/articles/general',
@@ -52,12 +52,9 @@ export async function getStaticProps() {
 }
 
 export default function archived({ cleanNames }) {
+    
     return (
         <div className="archived">
-            <link
-                href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap"
-                rel="stylesheet"
-            />
             <h1>Archived posts</h1>
             <p>A list of all my posts on the site so far.</p>
             <ul>
@@ -69,7 +66,7 @@ export default function archived({ cleanNames }) {
                             <A_li
                                 route={'/posts/articles/general/' + i.route}
                                 name={i.name}
-                                key={i}
+                                key={i.name}
                             />
                         )
                     })}
@@ -79,7 +76,7 @@ export default function archived({ cleanNames }) {
                             <A_li
                                 route={'/posts/articles/programming/' + i.route}
                                 name={i.name}
-                                key={i}
+                                key={i.name}
                             />
                         )
                     })}

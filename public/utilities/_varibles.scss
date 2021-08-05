@@ -9,6 +9,9 @@ $button: #1b4645;
 @mixin tablet {
     margin: 50px;
     border-radius: 0;
+    font-size: medium;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 @mixin default {

@@ -6,10 +6,6 @@ export default function Home() {
     return (
         <div>
             <header>
-                <link
-                    href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap"
-                    rel="stylesheet"
-                />
                 <h1>My creative corner</h1>
                 <p>
                     Just a simple place for my more creative side. You can find
