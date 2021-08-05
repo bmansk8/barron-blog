@@ -40,3 +40,9 @@
         @include tablet;
     }
 }
+
+@media(max-width: 448px){
+    .commentary{
+        @include mobile
+    }
+}

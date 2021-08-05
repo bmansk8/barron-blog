@@ -17,6 +17,7 @@ export async function getStaticProps() {
             obj.route = i.replace(/\.jsx$/, '')
             obj.name = i
                 .replace(/\.jsx$/, '')
+                .replace(/_/, ' ')
                 .trim()
             return obj
         })

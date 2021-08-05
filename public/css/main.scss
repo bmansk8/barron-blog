@@ -30,4 +30,14 @@ footer {
     a {
         font-size: medium;
     }
+    footer{
+        font-size: medium;
+    }
 }
+
+@media(max-width : 448px){
+    header{
+        @include mobile
+    }
+  }
+  

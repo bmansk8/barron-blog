@@ -2,7 +2,6 @@
 
 .commentaries{
   @include default;
-
   h2{
     margin-top: 100px;
   }
@@ -29,7 +28,13 @@
 }
 
 @media (max-width: 768px) {
-  .commontaries {
+  .commentaries {
     @include tablet;
+  }
+}
+
+@media(max-width: 448px){
+  .commentaries{
+    @include mobile
   }
 }

@@ -48,3 +48,12 @@
         }
     }
 }
+
+@media (max-width: 448px) {
+    .navbar {
+        height: 100px;
+        a {
+            font-size: medium;
+        }
+    }
+}
