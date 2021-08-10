@@ -1,5 +1,5 @@
-import Chapter1 from '../../../public/utilities/comentary_components/Nahum/Chapter1'
-import Chapter2 from '../../../public/utilities/comentary_components/Nahum/Chapter2'
+import Chapter1 from '../../../public/utilities/comentary_components/Nahum/chapter1'
+import Chapter2 from '../../../public/utilities/comentary_components/Nahum/chapter2'
 import Chapter3 from '../../../public/utilities/comentary_components/Nahum/chapter3'
 import { useState } from 'react'
 

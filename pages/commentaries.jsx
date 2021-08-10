@@ -61,7 +61,7 @@ export default function commentaries({ cleanNames }) {
                     used to help with a high school small group. We had started
                     going through verse by verse and so I was getting in the
                     habit of writing out my thoughts on the text in a
-                    readable/teachable way. I then found even after no longer
+                    readable-teachable way. I then found even after no longer
                     helping with that group, I continued to study every morning
                     like that. I now find myself several books deep and have
                     recently felt led to throw them out on the web.
