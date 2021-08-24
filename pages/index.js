@@ -1,6 +1,6 @@
-import Article_LessCss from './posts/articles/programming/article_lessCss'
+import Article_repentanceAndPunishment from './posts/articles/general/article_repentanceAndPunishment'
 import Photo_summer from './posts/photos/photo_summer'
-import Song_inYourHand from './posts/songs/song_inYourHand'
+import Song_heyRuth from './posts/songs/song_heyRuth'
 
 export default function Home() {
     return (
@@ -28,9 +28,9 @@ export default function Home() {
                 </p>
             </header>
 
-            <Article_LessCss />
-            <Song_inYourHand />
+            <Song_heyRuth />
             <Photo_summer/>
+            <Article_repentanceAndPunishment />
 
             <footer>
                 <p>
