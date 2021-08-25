@@ -23,7 +23,7 @@ export default function Article_repentanceAndPunishment(params) {
                 that an apology is often required. It is also interesting to me
                 that with more small-scale conflicts, punishment often ends
                 after an apology. If there was even any punishment at all.{' '}
-                <em>Why is this the case</em>?
+                <b>Why is this the case</b>?
             </p>
             <p>
                 So I am christian if you did not know that. I will not go into
@@ -59,16 +59,16 @@ export default function Article_repentanceAndPunishment(params) {
                 So let me start with some terms I want to use in this article.
                 Restorative justice, and retributive justice. Google (through
                 Oxford dictionary) lists restorative justice as{' '}
-                <em>
+                <b>
                     ”a system of criminal justice which focuses on the
                     rehabilitation of offenders through reconciliation with
                     victims and the community at large.”
-                </em>{' '}
+                </b>{' '}
                 Retributive justice is listed as{' '}
-                <em>
+                <b>
                     “a system of criminal justice based on the punishment of
                     offenders rather than on rehabilitation.”{' '}
-                </em>
+                </b>
                 These seem like logical definitions to me. Let me also link to
                 some wiki articles on both of these. While not always 100%
                 correct, it generally conveys the common beliefs.
@@ -94,11 +94,11 @@ export default function Article_repentanceAndPunishment(params) {
                 things right again. How can that person's place in the community
                 be restored. Retributive justice seems to be two fold. One might
                 say with the right incentives to not do something wrong, crime
-                would go away. If the punishment outweighs the crime enough, no
+                would go away. If the punishment outweighs the crime enough, no one
                 will do it. One might also say that yes crime is inevitable, so{' '}
-                <em>some</em> crime will go away, but for the rest they deserve
+                <b>some</b> crime will go away, but for the rest they deserve
                 punishment. One is very impersonal and looks like an “a eye for
-                an eye” model. The other seeks to restore what was taken/lost
+                an eye” model. The other seeks to restore what was taken\lost
                 and to bring things back to the way they were. Even if it means
                 an alternative form of “punishment”.
             </p>
@@ -107,7 +107,7 @@ export default function Article_repentanceAndPunishment(params) {
                 and punishment all over the bible. The Levites that stand with
                 Moses and God in Exodus 32 kill 3,000 people who don’t stand
                 with God. Joshua kills an untold number of people when the
-                Israelites enter the promised land. The ending of judges is
+                Israelites enter the promised land. The ending of Judges is
                 after the rape of a jewish mans wife. He convinces the other 11
                 tribes to seek revenge and destroy the tribe that raped his
                 wife. The Israelites suffered immense judgment and punishment
@@ -132,19 +132,19 @@ export default function Article_repentanceAndPunishment(params) {
                 you “repent” or ask for forgiveness? Does being sorry matter in
                 any way? If it does not matter, and your punishment continues
                 regardless of repentance or not, let me pose another question.{' '}
-                <em>How can we be saved by repentance of sins then?</em> You
+                <b>How can we be saved by repentance of sins then?</b> You
                 repent, but justice states you are still required to go to hell.
                 You might say, well Jesus took on our sins. This is true. But
-                let me suggest another idea. Jesus <em>made things right </em>
+                let me suggest another idea. Jesus <b>made things right </b>
                 between us and God. We sinned against God, and Jesus restored
                 us. God did what was necessary to make things right. To restore
                 us with him. And now we are saved by the repentance of sins.
                 Because God made things right, and we repent, we don’t have to
-                face judgment. All of the examples
-                <em>seemingly</em> pointing to retributive justice often are
+                face judgment. All of the examples{' '}
+                <b>seemingly</b> pointing to retributive justice often are
                 accompanied by a lack of repentance. Whether the men the Levites
                 killed, the men Joshua kills(some people actually do ally with
-                Israel), the benjamites from Judges are later restored, and the
+                Israel), the Benjamites from Judges are later restored, and the
                 Assryian and Babylonian captivity is always presented with
                 Israel’s idol worship and a lack of returning to God. God is
                 long suffering so none might perish. He gave all these groups a
@@ -170,7 +170,7 @@ export default function Article_repentanceAndPunishment(params) {
                 Through repentance. Through believing in Christ and admitting
                 our need for him. Through our faith in him. I am not downplaying
                 that Christ took on punishment for us, but it was so things
-                might be made right. Christ made it so anyone <em>can be</em>{' '}
+                might be made right. Christ made it so anyone <b>can be</b>{' '}
                 made right with God. To go even further. If retributive justice
                 was the model, Christ took all our punishment, and nothing is
                 required of us. Everyone is saved regardless of faith or
@@ -195,7 +195,7 @@ export default function Article_repentanceAndPunishment(params) {
                 To make things right requires our death. Sin is that great.
                 Death is the only way to make things right with us and God. Yet
                 God has a solution. Genesis 15 paints this amazing picture. God
-                and Abrham make a covenant and determine what must be done to
+                and Abraham make a covenant and determine what must be done to
                 make things right if it is broken. Death is the deal. Abraham
                 does not complete the covenant because he knows he will fail God
                 and die. He simply sits and waits. He recognizes he alone cannot
@@ -206,7 +206,7 @@ export default function Article_repentanceAndPunishment(params) {
                 taking up our end of this covenant. We have all failed, yet God
                 made us right with him through the death of Christ. That's why
                 if we have faith in Christ we are saved. This gives us the{' '}
-                <em>option</em> of being right with God. Repenting of sins and
+                <b>option</b> of being right with God. Repenting of sins and
                 having faith in Christ is accepting that gift. This also solves
                 the universalism problem we stated earlier.
             </p>
@@ -217,8 +217,8 @@ export default function Article_repentanceAndPunishment(params) {
                 leave it up to God. Paul in Romans 12 quotes Deuteronomy telling
                 us to leave revenge to God. Only God is just enough to dish out
                 the right punishment. Seek after restoration. 2 Corinthians
-                2:5-11 clues us into that once repentance is achieved we are
-                REQUIRED to bring that person back into the fold. Whatever
+                2:5-11 clues us into that once repentance is achieved we are{' '}
+                <b>required</b> to bring that person back into the fold. Whatever
                 punishment was being inflicted is to stop. God did that for us,
                 so we must also operate under restorative justice. As Jesus says
                 in Matthew 18, not just 7 but 77 times. Complete and utter
@@ -229,7 +229,7 @@ export default function Article_repentanceAndPunishment(params) {
                 Now if you read into 2 Corinthians you might find that the
                 church does have some disciplinary roles. This man from 2
                 Corinthians was first kicked out in 1 Corinthians. To key things
-                there. One is that <em>he was a believer</em>
+                there. One is that <b>he was a believer</b>{' '}
                 refusing to repent. Second is that once repentance was achieved
                 his punishment ended. This tells me that we are allowed to give
                 discipline, but only for believers and only to bring about
